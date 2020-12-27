@@ -1,0 +1,301 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header{
+
+    height: 100px;
+    background-color: #47403B;
+
+}
+
+.header-exp{
+
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.header img{
+
+    height: 100px;
+
+}
+
+.header nav{
+
+    margin-left: 100px;
+
+}
+
+.header nav a{
+
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: 200ms;
+
+}
+
+.header nav a:hover{
+
+    color: gray;
+
+}
+
+.header .button{
+
+    background-color: #BD3D38;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+
+}
+
+.header .button:hover{
+
+    background-color: #611e1c;
+
+}
+
+.header-main{
+
+    width: 100%;
+    height: 90vh;
+    background-image: url("PIXMA_TS_9050_Ambient_01_1920x1080\ 1.png");
+    background-size: cover;
+
+}
+
+.header-main h2{
+
+    font-size: 89px;
+    padding: 20px 0;
+
+}
+
+.header-main p{
+
+    font-size: 24px;
+
+}
+
+
+main .grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+
+}
+
+
+main .grid a{
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #BD3D38;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    transition: 200ms all;
+
+}
+
+main .grid a img{
+
+    margin-top: 20px;
+
+}
+
+main .grid a:hover{
+
+    
+    background-color: #611e1c;
+
+}
+
+article .first{
+
+    height: 500px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+
+}
+
+article .first h2{
+
+    font-size: 48px;
+    color: #BD3D38;
+    text-align: center;
+    margin-bottom: 10px;
+    grid-column: 1/3;
+
+}
+
+article .first img, article .first p{
+
+    align-self: flex-start;
+
+}
+
+article .first p{
+
+    font-size: 24px;
+
+}
+
+article .second{
+
+    height: 500px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+
+}
+
+article .second h2{
+
+    font-size: 48px;
+    color: #BD3D38;
+    text-align: center;
+    margin-bottom: 40px;
+    grid-column: 1/3;
+
+}
+
+article .second img, article .second p{
+
+    align-self: flex-start;
+
+}
+
+article .second p{
+
+    font-size: 24px;
+
+}
+
+.contacts{
+
+    margin-top: 200px;
+    height: 462px;
+    background-color: #BDA891;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 100px;
+
+}
+
+.contacts img{
+
+    width: 496px;
+    height: 362px;
+
+}
+
+.contacts .form{
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.contacts .form h2{
+
+    font-size: 36px;
+    margin-bottom: 20px;
+
+}
+
+.contacts .form input{
+
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #BDA891;
+    border: 3px #BD3D38 solid;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.contacts .form button{
+
+    background-color: #BD3D38;
+    border-radius: 20px;
+    padding: 10px 70px;
+    border: none;
+
+}
+
+.contacts .form button:hover{
+
+    color:white;
+
+}
+
+footer{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #D9D9D7;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+
+}
+
+.first-col{
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.first-col a{
+
+    color: black;
+    text-decoration: none;
+
+}
+
+.first-col a:hover{
+
+    color: rgb(58, 58, 58);
+    text-decoration: none;
+
+}
